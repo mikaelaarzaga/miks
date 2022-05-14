@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block extra_css %}
+    <style xmlns="http://www.w3.org/1999/html">
+    </style>
+{% endblock %}
+{% block page_title %}
+ Widgets
+{% endblock %}
+
+{% block content %}
+    <div class="page-breadcrumb">
+        <div class="row">
+            <div class="col-12 d-flex no-block align-items-center">
+                <h4 class="page-title">About</h4>
+                <div class="ml-auto text-right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row el-element-overlay">
+            <div class="col-12">
+                <div class="card">
+                    <div class="el-card-item">
+                        <div class="el-card-avatar el-overlay-1"> <img src="{% static 'images/Col1.jpg' %}" alt="user">
+                            <div class="el-overlay">
+                                <ul class="list-style-none el-info">
+                                    <li class="el-item"><a class="btn default btn-outline image-popup-vertical-fit el-link" href="{% static 'images/Col1.jpg' %}"><i class="mdi mdi-magnify-plus"></i></a></li>
+                                    <li class="el-item"><a class="btn default btn-outline el-link" href="javascript:void(0);"><i class="mdi mdi-link"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            <div class="el-card-avatar el-overlay-1"> <img src="{% static 'images/Col2.jpg' %}" alt="user">
+                                <div class="el-overlay">
+                                    <ul class="list-style-none el-info">
+                                        <li class="el-item"><a class="btn default btn-outline image-popup-vertical-fit el-link" href="{% static 'images/Col2.jpg' %}"><i class="mdi mdi-magnify-plus"></i></a></li>
+                                        <li class="el-item"><a class="btn default btn-outline el-link" href="javascript:void(0);"><i class="mdi mdi-link"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">HYASENSE</h5>
+                            <p>It is an automated water hyacinth collector where machine learning was integrated to be the decision maker of the system. 
+                                It has a camera that captures the current status of the plants where the device is located, 
+                                it will then be analyzed by the machine learning algorithm, which is the SVM, via the device's mini-computer, the Raspberry Pi. 
+                                There are 3 levels of infestation and these are the: LOW-LEVEL, MODERATE-LEVEL and HIGH-LEVEL.
+                                When the level is at moderate and high, that is the only  time that the device will work and start collecting water hyacinth. 
+                                After the Machine Learning classify the current infestation status, it will then send a signal to the two arduino in the device, 
+                                if the motor and water pump will turn on or not.</p>
+                            <p>This project aims to help the fishermen on sailing smoothly from the shore to the lake. The Hyasense is a remote monitoring device, 
+                                it already has its own power supply system. Anyone can check the latest status of the water hyacinth infestation via this web application. 
+                                The collected hyacinths by the deice must also be brought out of the device for it to keep collecting.</p>
+                            <p>The proponents of the Hyasense hopes that the device will lessen the negative imapcts of the Water Hyacinth in the lake both 
+                                in environmental aspect and for the community around it.</p>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

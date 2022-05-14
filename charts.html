@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block extra_css %}
+    <style xmlns="http://www.w3.org/1999/html">
+    </style>
+{% endblock %}
+{% block page_title %}
+ Chart
+{% endblock %}
+{% block content %}
+    <div class="page-breadcrumb">
+        <div class="row">
+            <div class="col-12 d-flex no-block align-items-center">
+                <h4 class="page-title">Data</h4>
+                <div class="ml-auto text-right">
+                    <nav aria-label="breadcrumb">
+                       
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Container fluid  -->
+    <!-- ============================================================== -->
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <!-- Chart-1 -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title m-b-0">Monitoring History</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Infestation Status</th>
+                            <th scope="col">Collector Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>14:33</td>
+                            <td>05/03/2022</td>
+                            <td>LOW LEVEL</td>
+                            <td>OFF</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>14:18</td>
+                            <td>05/03/2022</td>
+                            <td>LOW LEVEL</td>
+                            <td>OFF</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>14:03</td>
+                            <td>05/03/2022</td>
+                            <td>LOW LEVEL</td>
+                            <td>OFF</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>13:48</td>
+                            <td>05/03/2022</td>
+                            <td>MODERATE LEVEL</td>
+                            <td>OFF</td>
+                             
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>13:33</td>
+                            <td>05/03/2022</td>
+                            <td>HIGH LEVEL</td>
+                            <td>ON</td>
+                             
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>13:18</td>
+                            <td>05/03/2022</td>
+                            <td>HIGH LEVEL</td>
+                            <td>ON</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>13:03</td>
+                            <td>05/03/2022</td>
+                            <td>LOW LEVEL</td>
+                            <td>OFF</td>
+                             
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>12:48</td>
+                            <td>05/03/2022</td>
+                            <td>MODERATE LEVEL</td>
+                            <td>OFF</td>
+                             
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>12:33</td>
+                            <td>05/03/2022</td>
+                            <td>LOW LEVEL</td>
+                            <td>OFF</td>
+                             
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>12:18</td>
+                            <td>05/03/2022</td>
+                            <td>LOW LEVEL</td>
+                            <td>OFF</td>
+                             
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
